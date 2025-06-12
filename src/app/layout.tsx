@@ -3,7 +3,14 @@ import "./globals.css";
 
 export const metadata: Metadata = {
 	title: "Gaffer",
-	description: "Gaffer",
+	description: "Play fantasy football based on real matches. Join contests and cash out instantly",
+	openGraph: {
+		title: "Gaffer",
+		description: "Play fantasy football based on real matches. Join contests and cash out instantly",
+		images: "/icon.png",
+		siteName: "Gaffer",
+		type: "website",
+	},
 	icons: {
 		icon: "/icon.png",
 	},

@@ -1,13 +1,19 @@
-import FAQSection from "@/components/section/FAQSection";
 import Header from "@/components/layout/header";
-import Container from "@/components/custom/container";
 import { Metadata } from "next";
 import ContactSection from "@/components/section/ContactSection";
 
 // Meta
 export const metadata: Metadata = {
-	title: "Contact Us",
-	description: "Contact Us",
+	title: "Contact Us - Gaffer",
+	description: "Contact us for any questions, feedback or assistance",
+	icons: { icon: "/icon.png" },
+	openGraph: {
+		title: "Contact Us",
+		description: "Contact us for any questions, feedback or assistance",
+		images: "/icon.png",
+		siteName: "Gaffer",
+		type: "website",
+	},
 };
 
 export default function Contact() {
