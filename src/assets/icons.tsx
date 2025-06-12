@@ -1,6 +1,6 @@
-export const NigeriaFlag = () => {
+export const NigeriaFlag = ({ width = 20, height = 12 }) => {
 	return (
-		<svg xmlns="http://www.w3.org/2000/svg" width={20} height={12} viewBox="0 0 20 12" fill="none">
+		<svg xmlns="http://www.w3.org/2000/svg" width={width} height={height} viewBox="0 0 20 12" fill="none">
 			<g clipPath="url(#clip0_2933_9)">
 				<path d="M0 0.0231323H20V11.9768H0V0.0231323Z" fill="#008751" />
 				<path d="M6.66666 0.0231323H13.3333V11.9768H6.66666V0.0231323Z" fill="white" />
@@ -14,9 +14,9 @@ export const NigeriaFlag = () => {
 	);
 };
 
-export const USAFlag = () => {
+export const USAFlag = ({ width = 20, height = 12 }) => {
 	return (
-		<svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width={1235} height={650} viewBox="0 0 7410 3900">
+		<svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width={width} height={height} viewBox="0 0 7410 3900">
 			<path d="M0,0h7410v3900H0" fill="#b31942" />
 			<path d="M0,450H7410m0,600H0m0,600H7410m0,600H0m0,600H7410m0,600H0" stroke="#FFF" strokeWidth={300} />
 			<path d="M0,0h2964v2100H0" fill="#0a3161" />

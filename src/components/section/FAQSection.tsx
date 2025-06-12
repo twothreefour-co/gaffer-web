@@ -1,6 +1,7 @@
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
 import CustomButton from "../custom/custom-button";
+import Container from "../custom/container";
 
 const faqData = [
 	{
@@ -43,30 +44,32 @@ const faqData = [
 
 const FAQSection = () => (
 	<section className="">
-		<div className="grid lg:grid-cols-2 gap-12 items-start">
-			{/* Left Content */}
-			<div className="space-y-6">
-				<h2 className="text-3xl lg:text-4xl leading-tight font-semibold mb-4 max-w-md">Frequently Asked Questions</h2>
-				<p className="text-gray-350 text-sm lg:text-base max-w-xl">
-					Can't find the answers you are looking for or you've got more questions? reach out to us today
-				</p>
+		<Container className="mt-28">
+			<div className="grid lg:grid-cols-2 gap-12 items-start">
+				{/* Left Content */}
+				<div className="space-y-6">
+					<h2 className="text-3xl lg:text-4xl leading-tight font-semibold mb-4 max-w-md">Frequently Asked Questions</h2>
+					<p className="text-gray-350 text-sm lg:text-base max-w-xl">
+						Can't find the answers you are looking for or you've got more questions? reach out to us today
+					</p>
 
-				<CustomButton variant="secondary" className="w-fit">
-					Contact Us
-				</CustomButton>
+					<CustomButton variant="secondary" className="w-fit">
+						Contact Us
+					</CustomButton>
+				</div>
+				{/* Right Content - FAQ Accordion */}
+				<div className="space-y-4">
+					<Accordion type="single" collapsible className="w-full">
+						{faqData.map((faq) => (
+							<AccordionItem key={faq.id} value={faq.id} className="border-gray-800">
+								<AccordionTrigger className="text-left text-white hover:text-yellow-400 hover:no-underline py-6">{faq.question}</AccordionTrigger>
+								<AccordionContent className="text-gray-400 pb-6">{faq.answer}</AccordionContent>
+							</AccordionItem>
+						))}
+					</Accordion>
+				</div>
 			</div>
-			{/* Right Content - FAQ Accordion */}
-			<div className="space-y-4">
-				<Accordion type="single" collapsible className="w-full">
-					{faqData.map((faq) => (
-						<AccordionItem key={faq.id} value={faq.id} className="border-gray-800">
-							<AccordionTrigger className="text-left text-white hover:text-yellow-400 hover:no-underline py-6">{faq.question}</AccordionTrigger>
-							<AccordionContent className="text-gray-400 pb-6">{faq.answer}</AccordionContent>
-						</AccordionItem>
-					))}
-				</Accordion>
-			</div>
-		</div>
+		</Container>
 	</section>
 );
 

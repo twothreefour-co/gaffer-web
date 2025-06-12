@@ -11,7 +11,7 @@ const CustomButton = ({ children, variant = "primary", className, ...props }: Cu
 	const buttonClass = variant === "primary" ? "bg-primary text-black hover:bg-primary/90" : "bg-white text-black hover:bg-gray-200/90";
 
 	return (
-		<Button className={cn(buttonClass, "text-xs lg:text-sm font-semibold py-5 lg:px-6", className)} {...props}>
+		<Button className={cn(buttonClass, "text-xs lg:text-sm font-semibold py-5 lg:px-6 cursor-pointer", className)} {...props}>
 			{children}
 		</Button>
 	);

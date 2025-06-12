@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import CustomButton from "./custom/custom-button";
 import { NigeriaFlag, USAFlag } from "@/assets/icons";
-import { Select, SelectContent, SelectItem, SelectTrigger } from "@radix-ui/react-select";
 import { Input } from "./ui/input";
+import { Select, SelectTrigger, SelectContent, SelectItem } from "./ui/select";
 
 const GetAppForm = () => {
 	const [phoneNumber, setPhoneNumber] = useState("");
@@ -22,14 +22,14 @@ const GetAppForm = () => {
 		<div className="flex items-center gap-2">
 			<div className="flex items-center max-w-md rounded-[10px] px-4 py-1" style={{ borderWidth: "0.4px", borderColor: "#5C5C5C" }}>
 				<Select value={countryCode} onValueChange={setCountryCode}>
-					<SelectTrigger className="bg-transparent border-none p-0 focus:ring-0 focus:outline-none">
+					<SelectTrigger className="bg-transparent border-none p-0 !ring-0 focus:outline-none">
 						<div className="flex items-center lg:gap-3 ">
 							{/* Flag image */}
 							<span className="hidden lg:block">{getCountryFlag(countryCode)}</span>
 							<span className="text-[#D9D9D9] text-xs lg:text-base">{countryCode}</span>
 						</div>
 					</SelectTrigger>
-					<SelectContent className="bg-gray-900 border-gray-700">
+					<SelectContent className="bg-black border-gray-350">
 						<SelectItem value="+234" className="flex items-center gap-2 text-white">
 							{getCountryFlag("+234")}
 							+234
