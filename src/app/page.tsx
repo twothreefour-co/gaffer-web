@@ -8,6 +8,7 @@ import Container from "@/components/custom/container";
 import { NigeriaFlag, USAFlag } from "@/assets/icons";
 import CustomButton from "@/components/custom/custom-button";
 import TrustedTestimonials from "@/components/section/TrustedTestimonials";
+import FAQSection from "@/components/section/FAQSection";
 
 export default function Home() {
 	const [phoneNumber, setPhoneNumber] = useState("");
@@ -27,7 +28,7 @@ export default function Home() {
 		<div className="min-h-screen bg-black text-white">
 			{/* Header */}
 			<header className="">
-				<Container className="border-b border-gray-700">
+				<Container className="border-b-[0.2px]" style={{ borderColor: "rgba(66,66,66,0.5)" }}>
 					<div className="flex items-center justify-between py-5">
 						<a href="/" className="">
 							<img src="/images/logo.png" alt="Gaffer Logo" className="h-7" />
@@ -40,7 +41,7 @@ export default function Home() {
 			<main className="py-12 lg:py-20">
 				{/* Hero Section */}
 				<Container>
-					<div className="grid lg:grid-cols-2 gap-12 items-center max-w-7xl mx-auto">
+					<div className="grid lg:grid-cols-2 gap-12 items-center mx-auto">
 						{/* Left Content */}
 						<div className="space-y-8">
 							<div className="space-y-6">
@@ -51,8 +52,8 @@ export default function Home() {
 							</div>
 
 							{/* Phone Input Form */}
-							<div className="space-y-4 my-8 lg:mt-10 lg:mb-16">
-								<p className="text-gray-400 text-xs lg:text-sm">Enter your phone number to receive download link</p>
+							<div className="space-y-4 my-10 lg:mt-10 lg:mb-16">
+								<p className="text-gray-350 text-xs lg:text-sm">Enter your phone number to receive download link</p>
 
 								<div className="flex items-center gap-2">
 									<div className="flex items-center max-w-md rounded-[10px] px-4 py-1" style={{ borderWidth: "0.4px", borderColor: "#5C5C5C" }}>
@@ -106,15 +107,21 @@ export default function Home() {
 						{/* Right Content - Mobile App Showcase */}
 						<div className="relative mt-4 lg:mt-0">
 							<div className="relative z-10">
-								<Image src="/images/hero-image.png" alt="Gaffer Mobile App" width={400} height={600} className="mx-auto w-[86%] max-w-[540px]" />
+								<Image
+									src="/images/hero-image.png"
+									alt="Gaffer Mobile App"
+									width={400}
+									height={600}
+									className="mx-auto lg:mr-0 w-full lg:w-[86%] max-w-[540px]"
+								/>
 							</div>
 						</div>
 					</div>
 				</Container>
 
 				{/* How it works Section */}
-				<Container className="mt-28">
-					<div className="space-y-8">
+				<Container className="lg:mt-28 mt-18">
+					<div className="">
 						<div className="flex justify-between items-center gap-8">
 							<h2 className="lg:text-4xl text-xl font-medium leading-tight max-w-xl">
 								One Simple Rule. <br /> 1 Club = 1 Player Allowed.
@@ -122,7 +129,7 @@ export default function Home() {
 							<p className="text-gray-300 lg:text-sm text-xs">No Budgets, No Player Price.</p>
 						</div>
 
-						<div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16">
+						<div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
 							{/* Card 1: Select Your Team */}
 							<div className="bg-[#0A0B0D] p-4 pb-0 flex flex-col min-h-[420px]  rounded-[10px] outline-1 outline-color-grey-19">
 								<h3 className="text-lg font-medium mb-2">Select Your Team</h3>
@@ -161,7 +168,7 @@ export default function Home() {
 					<section className="">
 						<div className="max-w-7xl mx-auto">
 							{/* Section Header */}
-							<div className="text-center mb-16">
+							<div className="text-center mb-14">
 								<h2 className="text-3xl lg:text-4xl font-semibold mb-4">Why Choose Gaffer?</h2>
 								<p className="text-[#A6A6A6] text-sm max-w-2xl mx-auto">
 									GAFFER is more than just fantasy it's where real football strategy meets excitement, competition, and the thrill of winning real
@@ -245,6 +252,11 @@ export default function Home() {
 				{/* Trusted Section */}
 				<Container className="mt-28">
 					<TrustedTestimonials />
+				</Container>
+
+				{/* FAQ Section */}
+				<Container className="mt-28">
+					<FAQSection />
 				</Container>
 			</main>
 		</div>
