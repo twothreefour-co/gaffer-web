@@ -18,12 +18,12 @@ const HeroSection = () => (
 					<GetAppForm />
 				</div>
 				{/* App Store Buttons */}
-				<div className="flex gap-4">
+				<div className="flex items-center justify-start gap-4">
 					<a href="http://" target="_blank" rel="noopener noreferrer">
-						<img src="/images/download-on-app-store.png" style={{ width: "100%", height: "45px" }} alt="Get App Link" />
+						<img src="/images/download-on-app-store.png" style={{ height: "56px", objectFit: "contain" }} alt="Get App Link" />
 					</a>
 					<a href="http://" target="_blank" rel="noopener noreferrer">
-						<img src="/images/get-on-google-play.png" style={{ width: "100%", height: "45px" }} alt="Get App Link" />
+						<img src="/images/get-on-google-play.png" style={{ height: "56px", objectFit: "contain" }} alt="Get App Link" />
 					</a>
 				</div>
 			</div>

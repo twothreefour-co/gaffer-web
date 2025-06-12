@@ -27,7 +27,7 @@ const Footer = () => (
 				<div className="border-t border-[#232323] mt-6"></div>
 				{/* Bottom Row */}
 				<div className="py-12 lg:py-4 flex flex-col md:flex-row justify-between items-center gap-4">
-					<div className="flex gap-8 text-gray-350 text-sm lg:text-base">
+					<div className="flex gap-6 text-gray-350 text-sm lg:text-base">
 						<a href="#" className="hover:underline">
 							Privacy Policy
 						</a>
@@ -35,7 +35,9 @@ const Footer = () => (
 							Terms and Conditions
 						</a>
 					</div>
-					<div className="text-gray-350 text-sm lg:text-base text-center md:text-left py-4">All rights reserved@Gaffer2025</div>
+
+					<div className="text-gray-350 text-sm lg:text-base text-center md:text-left py-4">All rights reserved © 2025 Gaffer</div>
+
 					<div className="flex gap-3">
 						<a href="#" className="bg-primary rounded-full w-9 h-9 flex items-center justify-center text-black" aria-label="Facebook">
 							{/* Facebook SVG */}
