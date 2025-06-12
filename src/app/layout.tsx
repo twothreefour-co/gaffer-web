@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-export const metadata = {
+export const metadata: Metadata = {
 	title: "Gaffer",
 	description: "Gaffer",
+	icons: {
+		icon: "/icon.png",
+	},
 };
 
 export default function RootLayout({
@@ -14,7 +17,7 @@ export default function RootLayout({
 	return (
 		<html lang="en" className="scroll-smooth">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-			<body className="font-obviously antialiased">{children}</body>
+			<body className="font-obviously antialiased bg-black">{children}</body>
 		</html>
 	);
 }
