@@ -1,12 +1,13 @@
 "use client";
 
-import { useState } from "react";
-import { Button } from "@/components/ui/button";
+import { useState, useRef } from "react";
 import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import Image from "next/image";
 import Container from "@/components/custom/container";
 import { NigeriaFlag, USAFlag } from "@/assets/icons";
+import CustomButton from "@/components/custom/custom-button";
+import TrustedTestimonials from "@/components/section/TrustedTestimonials";
 
 export default function Home() {
 	const [phoneNumber, setPhoneNumber] = useState("");
@@ -31,7 +32,7 @@ export default function Home() {
 						<a href="/" className="">
 							<img src="/images/logo.png" alt="Gaffer Logo" className="h-7" />
 						</a>
-						<Button className="bg-primary text-black hover:bg-primary/90 font-semibold py-5 px-6">Get App Link</Button>
+						<CustomButton variant="primary">Get App Link</CustomButton>
 					</div>
 				</Container>
 			</header>
@@ -86,7 +87,7 @@ export default function Home() {
 											className="flex-1 px-2 text-sm lg:text-base bg-transparent border-none text-white placeholder:text-[#5C5C5C] !ring-0 ring-transparent outline-transparent outline-none ml-0"
 										/>
 									</div>
-									<Button className="bg-primary text-black hover:bg-primary/90 text-xs lg:text-sm font-semibold py-5 lg:px-6">Get App Link</Button>
+									<CustomButton onClick={handleGetAppLink}>Get App Link</CustomButton>
 								</div>
 							</div>
 
@@ -163,7 +164,7 @@ export default function Home() {
 							<div className="text-center mb-16">
 								<h2 className="text-3xl lg:text-4xl font-semibold mb-4">Why Choose Gaffer?</h2>
 								<p className="text-[#A6A6A6] text-sm max-w-2xl mx-auto">
-									GAFFER is more than just fantasy it’s where real football strategy meets excitement, competition, and the thrill of winning real
+									GAFFER is more than just fantasy it's where real football strategy meets excitement, competition, and the thrill of winning real
 									cash every match week.
 								</p>
 							</div>
@@ -239,6 +240,11 @@ export default function Home() {
 							</div>
 						</div>
 					</section>
+				</Container>
+
+				{/* Trusted Section */}
+				<Container className="mt-28">
+					<TrustedTestimonials />
 				</Container>
 			</main>
 		</div>
