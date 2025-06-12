@@ -2,7 +2,7 @@ import Container from "@/components/custom/container";
 import GetAppForm from "@/components/get-app-form";
 
 const Footer = () => (
-	<footer className="pt-24 bg-[#0A0B0D]" id="footer">
+	<footer className="pt-24" id="footer">
 		<Container>
 			<div>
 				{/* Top Row */}
@@ -11,7 +11,7 @@ const Footer = () => (
 						<a href="/" className="">
 							<img src="/images/logo.png" alt="Gaffer Logo" className="h-8" />
 						</a>
-						<p className="text-gray-350 text-sm mt-4">
+						<p className="text-gray-350 text-sm mt-5">
 							Play fantasy football based on real matches.
 							<br />
 							Join contests, and cash out instantly
