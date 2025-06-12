@@ -2,6 +2,7 @@ import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/
 import { Button } from "@/components/ui/button";
 import CustomButton from "../custom/custom-button";
 import Container from "../custom/container";
+import Link from "next/link";
 
 const faqData = [
 	{
@@ -53,9 +54,11 @@ const FAQSection = () => (
 						Can't find the answers you are looking for or you've got more questions? reach out to us today
 					</p>
 
-					<CustomButton variant="secondary" className="w-fit">
-						Contact Us
-					</CustomButton>
+					<Link href="/contact">
+						<CustomButton variant="secondary" className="w-fit">
+							Contact Us
+						</CustomButton>
+					</Link>
 				</div>
 				{/* Right Content - FAQ Accordion */}
 				<div className="space-y-4">

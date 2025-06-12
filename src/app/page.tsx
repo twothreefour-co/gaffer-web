@@ -15,7 +15,7 @@ export default function Home() {
 	return (
 		<div className="min-h-screen bg-black text-white">
 			<Header />
-			<main className="pt-12 lg:pt-20">
+			<main className="">
 				<HeroSection />
 				<HowItWorksSection />
 				<WhyChooseSection />

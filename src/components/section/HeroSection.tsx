@@ -2,7 +2,7 @@ import Container from "@/components/custom/container";
 import GetAppForm from "@/components/get-app-form";
 
 const HeroSection = () => (
-	<Container>
+	<Container className="pt-12 lg:pt-20">
 		<div className="grid lg:grid-cols-2 gap-12 items-center mx-auto">
 			{/* Left Content */}
 			<div className="space-y-8">

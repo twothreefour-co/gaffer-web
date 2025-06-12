@@ -130,6 +130,7 @@
 	--radius-xl: calc(var(--radius) + 4px);
 	/* Custom */
 	--color-gray-350: #a6a6a6;
+	--color-dice-green: #00e98a;
 }
 
 :root {
