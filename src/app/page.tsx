@@ -1,7 +1,5 @@
 "use client";
 
-import Container from "@/components/custom/container";
-import CustomButton from "@/components/custom/custom-button";
 import TrustedTestimonials from "@/components/section/TrustedTestimonials";
 import FAQSection from "@/components/section/FAQSection";
 import HeroSection from "@/components/section/HeroSection";
