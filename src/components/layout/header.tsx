@@ -18,7 +18,7 @@ const Header = () => {
 						<ChevronRight className="w-4 h-4" />
 					</a>
 
-					<Link href="./#footer">
+					<Link href="./#app-link">
 						<CustomButton variant="primary">Get App Link</CustomButton>
 					</Link>
 				</div>

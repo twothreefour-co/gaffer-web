@@ -1,7 +1,7 @@
 import Container from "@/components/custom/container";
 
 const CTASection = () => (
-	<section className="overflow-hidden bg-[#0A0B0D] mt-28">
+	<section className="overflow-hidden bg-[#0A0B0D] mt-28" id="app-link">
 		<Container className="relative overflow-hidden">
 			<div className="flex flex-col lg:flex-row gap-8 justify-between items-center mx-auto">
 				{/* Left Content */}
