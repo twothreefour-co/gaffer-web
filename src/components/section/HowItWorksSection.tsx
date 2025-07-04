@@ -1,14 +1,10 @@
 import Container from "@/components/custom/container";
 
 const HowItWorksSection = () => (
-	<Container className="lg:mt-28 mt-18">
+	<Container className="lg:pt-[140px] pt-20" id="how-to-play">
 		<div className="">
-			<div className="flex justify-between items-center gap-8">
-				<h2 className="lg:text-4xl text-xl font-medium leading-tight max-w-xl">
-					One Simple Rule. <br /> 1 Club = 1 Player Allowed.
-				</h2>
-				<p className="text-gray-300 lg:text-sm text-xs">No Budgets, No Player Price.</p>
-			</div>
+			<h2 className="text-4xl lg:text-5xl font-bold text-center pb-4">How to Play</h2>
+
 			<div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
 				{/* Card 1: Select Your Team */}
 				<div className="bg-[#0A0B0D] p-4 pb-0 flex flex-col min-h-[420px]  rounded-[10px] outline-1 outline-color-grey-19">

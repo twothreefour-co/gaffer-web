@@ -2,6 +2,7 @@ import React from "react";
 import Container from "../custom/container";
 import CustomButton from "../custom/custom-button";
 import Link from "next/link";
+import { ChevronRight } from "lucide-react";
 
 const Header = () => {
 	return (
@@ -11,6 +12,12 @@ const Header = () => {
 					<Link href="./" className="">
 						<img src="/images/logo.png" alt="Gaffer Logo" className="h-7" />
 					</Link>
+
+					<a href="./#how-to-play" className="items-center gap-1 hidden lg:flex">
+						<text className="text-[#FBF9FF] text-base">How to Play</text>
+						<ChevronRight className="w-4 h-4" />
+					</a>
+
 					<Link href="./#footer">
 						<CustomButton variant="primary">Get App Link</CustomButton>
 					</Link>

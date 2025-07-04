@@ -1,5 +1,4 @@
 import Container from "@/components/custom/container";
-import GetAppForm from "@/components/get-app-form";
 
 const Footer = ({ showTopRow = true }: { showTopRow?: boolean }) => (
 	<footer className="pt-24" id="footer">
@@ -7,22 +6,16 @@ const Footer = ({ showTopRow = true }: { showTopRow?: boolean }) => (
 			<div>
 				{/* Top Row */}
 				{showTopRow && (
-					<div className="flex flex-col lg:flex-row justify-between lg:items-center gap-8 pb-8">
+					<div className="flex flex-col lg:flex-row lg:justify-between items-center gap-8 pb-8">
 						<div>
 							<a href="./" className="">
-								<img src="/images/logo.png" alt="Gaffer Logo" className="h-8" />
+								<img src="/images/logo.png" alt="Gaffer Logo" className="h-12" />
 							</a>
-							<p className="text-gray-350 text-sm mt-5">
-								Play fantasy football based on real matches.
-								<br />
-								Join contests, and cash out instantly
-							</p>
 						</div>
-						{/* Phone Input CTA */}
-						<div className="space-y-4 my-2 lg:my-4">
-							<p className="text-[#D9D9D9] text-xs lg:text-base">Enter your phone number to receive download link</p>
-							<GetAppForm section="footer" />
-						</div>
+
+						<a href="./" className="">
+							<img src="/images/logo-2.png" alt="Gaffer Logo" className="h-16" />
+						</a>
 					</div>
 				)}
 
