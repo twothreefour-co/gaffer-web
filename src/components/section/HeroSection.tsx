@@ -4,9 +4,7 @@ const HeroSection = () => (
 	<>
 		<Container className="pt-10 lg:pt-[65px] text-center">
 			<div className="relative flex flex-col items-center justify-start">
-				<div className="uppercase text-xs lg:text-lg tracking-widest text-[#ADACB5] mb-4">
-					Exclusive Daily Fantasy Soccer
-				</div>
+				<div className="uppercase text-xs lg:text-lg tracking-widest text-[#ADACB5] mb-4">Exclusive Daily Fantasy Soccer</div>
 
 				<div className="flex flex-col items-center">
 					<div className="flex items-center justify-center gap-2 mb-2">
@@ -24,29 +22,21 @@ const HeroSection = () => (
 						<img
 							src="/images/icons/cash-award.png"
 							alt="Trophy"
-							className="absolute lg:relative h-[60px] w-[60px] lg:h-[125px] lg:w-[125px] inline-block ml-2 top-[-5px] lg:top-[-80px] z-0"
+							className="absolute hidden lg:inline-block lg:relative h-[60px] w-[60px] lg:h-[125px] lg:w-[125px] ml-2 top-[-5px] lg:top-[-80px] z-0"
 						/>
 					</div>
 				</div>
 
-				<div className="flex items-center justify-center gap-4" style={{paddingTop: 30}}>
+				<div className="flex items-center justify-center gap-4" style={{ paddingTop: 30 }}>
 					<a href="#" target="_blank" rel="noopener noreferrer">
-						<img
-							src="/images/download-on-app-store.png"
-							style={{ height: "50px", objectFit: "contain" }}
-							alt="App Store"
-						/>
+						<img src="/images/download-on-app-store.png" style={{ height: "50px", objectFit: "contain" }} alt="App Store" />
 					</a>
 					<a href="#" target="_blank" rel="noopener noreferrer">
-						<img
-							src="/images/get-on-google-play.png"
-							style={{ height: "50px", objectFit: "contain" }}
-							alt="Google Play"
-						/>
+						<img src="/images/get-on-google-play.png" style={{ height: "50px", objectFit: "contain" }} alt="Google Play" />
 					</a>
 				</div>
 
-				<div className="flex flex-col justify-center items-center" style={{paddingTop: 65}}>
+				<div className="flex flex-col justify-center items-center" style={{ paddingTop: 65 }}>
 					<text className="pb-8 lg:text-4xl text-center">
 						<span className="text-[#6EFF00] ">LIMITED TIME! </span>
 						<span className="text-white font-semibold">
