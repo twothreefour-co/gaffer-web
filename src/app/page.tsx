@@ -17,23 +17,6 @@ export default function Home() {
 			<Header />
 			<main className="">
 				<HeroSection />
-				<Container className="mb-18">
-					<div className="flex flex-col justify-center items-center">
-						<text className="pb-8 lg:text-4xl text-center">
-							<span className="text-[#6EFF00] ">LIMITED TIME! </span>
-							<span className="text-white font-semibold">
-								Get up to <span className="text-primary">N1,000</span> instantly in wallet cash to play!
-							</span>
-						</text>
-
-						<a href="#" className="inline-block mx-auto">
-							<button className="bg-primary hover:bg-primary/90  text-black font-bold py-3 px-10 rounded-md text-lg shadow-md transition-all">
-								GET YOURS
-							</button>
-						</a>
-					</div>
-				</Container>
-
 				<JoinTheActionSection />
 				{/* Join the Action */}
 				<HowItWorksSection />
