@@ -7,7 +7,7 @@ const CTASection = () => (
 				{/* Left Content */}
 				<div className="py-20 lg:w-1/2">
 					<div className="mb-12">
-						<h1 className="text-4xl xl:text-5xl font-[Obviously] font-semibold leading-tight lg:leading-16 max-w-xl">
+						<h1 className="text-4xl xl:text-5xl font-[ABCDiatype] font-bold leading-tight lg:leading-16 max-w-xl">
 							Ready to Build <span className="text-primary">Your Squad</span> and Win Big?
 						</h1>
 						<p className="text-gray-300 lg:text-lg max-w-lg mt-6">
