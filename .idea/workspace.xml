@@ -3,83 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="08df8622-dfa3-4024-a213-0299776fc0e3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/NY3_dLoLiyBij7PuRltE0/_buildManifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/NY3_dLoLiyBij7PuRltE0/_ssgManifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/341.df3329d77a5faa19.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/472.a3826d29d6854395.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/4bd1b696-af78c8fd4172de37.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/503-f57d67b270931a39.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/668-6e69dec0285f6bc7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/684-6a4b9a8ce13d687c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/app/_not-found/page-5644411b4062e3a0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/app/contact/page-48fcb3c40d2e8f6c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/app/layout-e6ac3a3dbe4b4946.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/app/page-3d16b584bcf577c2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/app/privacy/page-f3babcb90f6e0410.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/app/terms/page-32389bb6de2751b2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/framework-f593a28cde54158e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/main-app-82a55eb63086f80d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/main-de90bb934ea3aa00.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/pages/_app-92f2aae776f86b9c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/pages/_error-71d2b6a7b832d02a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/polyfills-42372ed130431b0a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/webpack-7db2211b4c71b9c2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/css/3cd83cfe34ca397f.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/css/3dcc86446afe7453.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/css/66f98d73cec33c09.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/android-chrome-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/android-chrome-512x512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/ABCDiatype-Bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/Obviously.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/Obviously_Bold.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/Obviously_Light.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/Obviously_Medium.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/Obviously_SemiBold.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/Quarion/Quarion-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/Quarion/Quarion-Book.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/Quarion/Quarion-ExtraBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/Quarion/Quarion-ExtraLight.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/Quarion/Quarion-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/Quarion/Quarion-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/Quarion/Quarion-SemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/Quarion/Quarion-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/abc-diatype-bold.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/abc-diatype-regular.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/lightfield.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/1-join-public-contest.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/2-simple-rule.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/3-private-contest.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/4-leaderboard.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/cta-image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/download-on-app-store.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/gaffer-app-interface.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/get-on-google-play.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/icons/cash-award.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/icons/fast_entry_payouts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/icons/football.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/icons/live_stats_scoring.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/icons/one_simple_rule.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/icons/private_contest_friends.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/icons/real_match_contests.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/icons/secured_wallet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/join-contest.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/logo-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/logo-main.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/select-team.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/win-cash.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/privacy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/site.webmanifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/terms.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,6 +59,7 @@
       <workItem from="1750619085330" duration="2464000" />
       <workItem from="1751897120963" duration="12000" />
       <workItem from="1751897160857" duration="660000" />
+      <workItem from="1751929589797" duration="1266000" />
     </task>
     <servers />
   </component>
