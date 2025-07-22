@@ -13,10 +13,10 @@ const HeroSection = () => (
 					<p className="text-gray-300 lg:text-lg max-w-lg">Play fantasy football based on real matches. Join contests and cash out instantly</p>
 				</div>
 				{/* Phone Input Form */}
-				<div className="space-y-4 my-10 lg:mt-10 lg:mb-16">
+				{/* <div className="space-y-4 my-10 lg:mt-10 lg:mb-16">
 					<p className="text-gray-350 text-xs lg:text-sm">Enter your phone number to receive download link</p>
 					<GetAppForm />
-				</div>
+				</div> */}
 				{/* App Store Buttons */}
 				<div className="flex items-center justify-start gap-4">
 					<a href="http://" target="_blank" rel="noopener noreferrer">

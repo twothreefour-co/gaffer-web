@@ -9,7 +9,7 @@ const Header = () => {
 			<Container className="border-b-[0.2px]" style={{ borderColor: "rgba(66,66,66,0.5)" }}>
 				<div className="flex items-center justify-between py-5">
 					<Link href="./" className="">
-						<img src="/images/logo.png" alt="Gaffer Logo" className="h-7" />
+						<img src="/images/logo.png" alt="Gaffer Logo" className="h-14" />
 					</Link>
 					<Link href="./#footer">
 						<CustomButton variant="primary">Get App Link</CustomButton>

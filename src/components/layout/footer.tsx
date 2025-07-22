@@ -10,7 +10,7 @@ const Footer = ({ showTopRow = true }: { showTopRow?: boolean }) => (
 					<div className="flex flex-col lg:flex-row justify-between lg:items-center gap-8 pb-8">
 						<div>
 							<a href="./" className="">
-								<img src="/images/logo.png" alt="Gaffer Logo" className="h-8" />
+								<img src="/images/logo.png" alt="Gaffer Logo" className="h-16" />
 							</a>
 							<p className="text-gray-350 text-sm mt-5">
 								Play fantasy football based on real matches.
@@ -20,8 +20,11 @@ const Footer = ({ showTopRow = true }: { showTopRow?: boolean }) => (
 						</div>
 						{/* Phone Input CTA */}
 						<div className="space-y-4 my-2 lg:my-4">
-							<p className="text-[#D9D9D9] text-xs lg:text-base">Enter your phone number to receive download link</p>
-							<GetAppForm section="footer" />
+							{/* <p className="text-[#D9D9D9] text-xs lg:text-base">Enter your phone number to receive download link</p>
+							<GetAppForm section="footer" /> */}
+							<a href="./" className="">
+								<img src="/images/crest.png" alt="Gaffer Logo" className="h-32" />
+							</a>
 						</div>
 					</div>
 				)}
@@ -42,7 +45,7 @@ const Footer = ({ showTopRow = true }: { showTopRow?: boolean }) => (
 					<div className="text-gray-350 text-sm lg:text-base text-center md:text-left py-4">All rights reserved © 2025 Gaffer</div>
 
 					<div className="flex gap-3">
-						<a href="#" className="bg-primary rounded-full w-9 h-9 flex items-center justify-center text-black" aria-label="Facebook">
+						<a href="https://www.facebook.com/gaffer.vip" target="_blank" className="bg-primary rounded-full w-9 h-9 flex items-center justify-center text-black" aria-label="Facebook">
 							{/* Facebook SVG */}
 							<svg xmlns="http://www.w3.org/2000/svg" width={22} height={22} viewBox="0 0 24 25" fill="none">
 								<g clipPath="url(#clip0_2724_5004)">
@@ -58,7 +61,7 @@ const Footer = ({ showTopRow = true }: { showTopRow?: boolean }) => (
 								</defs>
 							</svg>
 						</a>
-						<a href="#" className="bg-primary rounded-full w-9 h-9 flex items-center justify-center text-black" aria-label="Twitter">
+						<a href="https://x.com/gaffer_vip" target="_blank" className="bg-primary rounded-full w-9 h-9 flex items-center justify-center text-black" aria-label="Twitter">
 							{/* Twitter SVG */}
 							<svg xmlns="http://www.w3.org/2000/svg" width={22} height={22} viewBox="0 0 24 25" fill="none">
 								<g clipPath="url(#clip0_2724_5005)">
@@ -74,7 +77,7 @@ const Footer = ({ showTopRow = true }: { showTopRow?: boolean }) => (
 								</defs>
 							</svg>
 						</a>
-						<a href="#" className="bg-primary rounded-full w-9 h-9 flex items-center justify-center text-black" aria-label="Instagram">
+						<a href="https://www.instagram.com/gaffer.vip/" target="_blank" className="bg-primary rounded-full w-9 h-9 flex items-center justify-center text-black" aria-label="Instagram">
 							{/* Instagram SVG */}
 							<svg xmlns="http://www.w3.org/2000/svg" width={22} height={22} viewBox="0 0 24 25" fill="none">
 								<g clipPath="url(#clip0_2724_5006)">

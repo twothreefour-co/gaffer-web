@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="08df8622-dfa3-4024-a213-0299776fc0e3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/dist/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_next/static/auKuhxte7WW4APL7IyLfo/_buildManifest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_next/static/auKuhxte7WW4APL7IyLfo/_ssgManifest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/103-cc904ca9400c50bd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/231-c12b8c6285403373.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/319-e3f93574cef9f449.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/341.df3329d77a5faa19.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/472.a3826d29d6854395.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/4bd1b696-a4b9de495e836315.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/503-1c358c6be7730b35.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/684-b3ae0296828e1812.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/app/_not-found/page-7b137d85f9de4771.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/app/contact/page-83c0bf8acd25830c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/app/layout-e6ac3a3dbe4b4946.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/app/page-ca849297f51630fb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/app/privacy/page-5e1b5deb723d05fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/app/terms/page-912450b0469b1351.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/main-app-82a55eb63086f80d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/main-de90bb934ea3aa00.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/pages/_app-92f2aae776f86b9c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/pages/_error-71d2b6a7b832d02a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/webpack-a662ffdaf5570210.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_next/static/css/71b4e0cb5cb9598e.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/favicon-16x16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/favicon-32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/privacy.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/privacy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/terms.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/terms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon-16x16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon-32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/section/HeroSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/section/HeroSection.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2ysMyshiYRm5UhgR7z4JUokd4vx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.format.on.save.advertiser.fired" value="true" />
+    <property name="go.formatter.settings.were.checked" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/gaffer-web/dist/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="08df8622-dfa3-4024-a213-0299776fc0e3" name="Changes" comment="" />
+      <created>1750619084202</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750619084202</updated>
+      <workItem from="1750619085330" duration="2464000" />
+      <workItem from="1751897120963" duration="12000" />
+      <workItem from="1751897160857" duration="660000" />
+      <workItem from="1751929589797" duration="5945000" />
+      <workItem from="1753148029520" duration="1710000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+</project>
