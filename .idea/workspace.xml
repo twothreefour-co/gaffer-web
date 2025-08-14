@@ -2,44 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08df8622-dfa3-4024-a213-0299776fc0e3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/dist/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/auKuhxte7WW4APL7IyLfo/_buildManifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/auKuhxte7WW4APL7IyLfo/_ssgManifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/103-cc904ca9400c50bd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/231-c12b8c6285403373.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/319-e3f93574cef9f449.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/341.df3329d77a5faa19.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/472.a3826d29d6854395.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/4bd1b696-a4b9de495e836315.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/503-1c358c6be7730b35.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/684-b3ae0296828e1812.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/app/_not-found/page-7b137d85f9de4771.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/app/contact/page-83c0bf8acd25830c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/app/layout-e6ac3a3dbe4b4946.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/app/page-ca849297f51630fb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/app/privacy/page-5e1b5deb723d05fa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/app/terms/page-912450b0469b1351.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/main-app-82a55eb63086f80d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/main-de90bb934ea3aa00.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/pages/_app-92f2aae776f86b9c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/pages/_error-71d2b6a7b832d02a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/webpack-a662ffdaf5570210.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_next/static/css/71b4e0cb5cb9598e.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/favicon-16x16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/favicon-32x32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/privacy.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/privacy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/terms.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/terms.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon-16x16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon-32x32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/section/HeroSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/section/HeroSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/favicon.ico" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

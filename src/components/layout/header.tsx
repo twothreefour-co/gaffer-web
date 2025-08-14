@@ -11,8 +11,8 @@ const Header = () => {
 					<Link href="./" className="">
 						<img src="/images/logo.png" alt="Gaffer Logo" className="h-14" />
 					</Link>
-					<Link href="./#footer">
-						<CustomButton variant="primary">Get App Link</CustomButton>
+					<Link href="https://app.gaffer.vip" rel="noopener noreferrer">
+						<CustomButton variant="primary">Play Now</CustomButton>
 					</Link>
 				</div>
 			</Container>

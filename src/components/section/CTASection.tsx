@@ -16,12 +16,12 @@ const CTASection = () => (
 					</div>
 					{/* App Store Buttons */}
 					<div className="flex gap-4">
-						<a href="http://" target="_blank" rel="noopener noreferrer">
-							<img src="/images/download-on-app-store.png" style={{ height: "56px", objectFit: "contain" }} alt="Get App Link" />
+						<a href="https://app.gaffer.vip" rel="noopener noreferrer">
+							<img src="/images/play_now.png" style={{ height: "56px", objectFit: "contain" }} alt="Play Now" />
 						</a>
-						<a href="http://" target="_blank" rel="noopener noreferrer">
+						{/* <a href="http://" target="_blank" rel="noopener noreferrer">
 							<img src="/images/get-on-google-play.png" style={{ height: "56px", objectFit: "contain" }} alt="Get App Link" />
-						</a>
+						</a> */}
 					</div>
 				</div>
 				{/* Right Content */}
