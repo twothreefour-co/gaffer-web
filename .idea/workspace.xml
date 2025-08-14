@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08df8622-dfa3-4024-a213-0299776fc0e3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/app/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/app/page-40d5bdfd6ec7f134.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/app/privacy/page-e6ff724c213d7642.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_next/static/chunks/app/terms/page-1fdfbf821bec2c18.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_next/static/tDxH1yLn_-X_tz64TtHQI/_buildManifest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_next/static/tDxH1yLn_-X_tz64TtHQI/_ssgManifest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/contact.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dist/contact.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/dist/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/privacy.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/privacy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/privacy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dist/privacy.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/terms.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/terms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/terms.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dist/terms.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +79,7 @@
       <workItem from="1751897160857" duration="660000" />
       <workItem from="1751929589797" duration="5945000" />
       <workItem from="1753148029520" duration="1710000" />
+      <workItem from="1755213194747" duration="189000" />
     </task>
     <servers />
   </component>
